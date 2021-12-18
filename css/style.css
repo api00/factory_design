@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+header{
+    background-color: #212121;
+}
+.top-nav{
+   height: 48px;
+   width: 100%;
+   color: #ffffff;
+   
+}
+.top-nav-links ul {
+ display: flex;
+ list-style-type: none;
+ 
+}
+.top-nav-links a{
+   display: inline-block;
+   padding: 15px 5px;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+   line-height: 4px;
+   color: #ffffff;
+   
+}
+.top-nav-links i{
+    color: #f9bf3b;
+    padding-right: 3px;
+   
+}
+
+.separator{
+    display: inline-block;
+    padding: 9px 10px;
+    color: #777777;
+}
+
+.top-nav-text h6 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 4px;
+}
+.main-nav-sec{
+    background-color: #ffffff;
+    height: 100px;
+}
+.main-nav{
+    display: flex;
+    width: 100%;  
+}
+.main-nav-links {
+    display: inline-block;
+   margin-left: 100px;
+}
+.main-nav-links ul{
+    display: flex;
+    list-style-type: none ;
+    
+}
+.main-nav-links a{
+    display: inline-block;
+    padding: 20px 20px ;
+    
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #212121;
+    font-weight: 400;
+    line-height: 64px;
+    transition: all 0.7s;
+    position: relative;
+   
+}
+
+
+.main-nav-links a:hover{
+ 
+    background-color: #dfdfdf;
+    
+}
+.logo{
+    display: inline-block;
+    margin-top: 23px;
+}
+.slider-active{
+   position: relative;
+}
+.slider-1{
+    position: relative;  
+    background-image: url("../img/1.jpg");
+    height: 575px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slider-2{
+    position: relative;  
+    background-image: url("../img/pilmo-kang-H72SCCTZPE8-unsplash\ .jpg");
+    height: 575px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slider-3{
+    position: relative;  
+    background-image: url("../img/daniel-lincoln-NR705beN_CU-unsplash.jpg");
+    height: 575px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slider-text{
+    margin-top: 140px;
+    position: absolute;
+    left: 50%;
+    top:  112px;
+    z-index: 1;
+    color: #ffffff;
+   
+}
+.slider-text h1{
+    font-size: 3rem;
+    line-height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.slider-text p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 33px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.btn a{
+    text-decoration: none;
+}
+
+.btn{
+   
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    border: 1px solid #f9bf3b;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+
+}
+
+.btn:after{
+position: absolute;
+content: "";
+height: 100%;
+width: 0;
+top: 0;
+left: 0;
+background-color: #f9bf3b;
+transition: .5s;
+z-index: -1;
+}
+.btn:hover:after{
+    width:100%;
+    color: #212121;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-c:hover a{
+   text-decoration: none;
+    
+}
+.adds{
+    margin-top: 100px;
+    
+}
+.box{
+    
+    height: 350px;
+    width:360px ;
+ 
+}
+.one {
+display: inline-block;
+margin-top: 10px;
+border-bottom: 1px solid #e4e1e1;
+
+
+}
+.in-one{
+    width: 250px;
+    float: right;
+    padding-left: 20px;
+    margin-top: 8px;
+    
+}
+.one:last-child{
+    border-bottom: none;
+}
+.box h3{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.box h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.box p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.box a{
+    color: #212121;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.box-img {
+    overflow: hidden;
+    
+}
+.box:hover .box-img img{
+  transform: scale(1.1);
+  transition: .7s;
+}
+.cta{
+    height: 140px;
+    background-color: #212121;
+    margin-top: 80px;
+    
+}
+.cta h1{
+
+    display: inline-block;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.cta a{
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+/** About section
+ */
+
+ .about{
+     margin-top: 90px;
+     margin-bottom: 20px;
+     position: relative;
+   
+     
+     
+ }
+ .about a{
+     color: #212121;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 400;
+ }
+ .texts{
+     margin-top: 50px;
+     width: 600px;
+ }
+ .text h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+ }
+ .texts p{
+     padding: 10px 0px;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+ }
+ .btn-2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+ }
+
+.news-about{
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    font-weight: 400;
+}
+.news-about h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.news-about i{
+position: absolute;
+top: 5px;
+left: -29px;
+font-size: 22px;
+color: #f9bf3b;
+padding: 5px;
+border: 1px solid #f9bf3b;
+border-radius: 100%;
+}
+/**Benefit section */
+
+.video{
+    padding-top: 90px;
+    background-color:#f2f5f7;
+    padding-bottom: 80px;
+   
+}
+.reasons h1{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+.reasons p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #777777;
+}
+.reasons h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+    color: #212121;
+}
+.facts{
+    position: relative;
+}
+.facts i{
+    position: absolute;
+    
+    left: -30px;
+    font-size: 23px;
+    color: #f9bf3b;
+}
+.reasons p{
+    padding: 14px 0px;
+  
+}
+.single-video iframe{
+    width: 500px;
+    margin-left: 70px;
+}
+/**cta-2 */
+.cta-2{
+    height: 140px;
+    background-color: #212121;
+    margin-top: 70px;
+}
+.cta-2 h1{
+
+    display: inline-block;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.cta-2 a{
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.prjects img{
+    display: inline-block;
+}
+.works{
+    height: 560px;
+    
+    
+}
+
+.work-t h1{
+   padding-top: 50px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.projects{
+    margin-top: 70px;
+}
+.project-t{
+    margin-top: 15px;
+}
+.project-t p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+.h-line{
+    color: #ccc;
+}
+.comments{
+    height: 350px;
+ 
+}
+.qoutes{
+    padding-top: 70px;
+}
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 70px;
+    line-height: 10px;
+    margin-right: 10px;
+   margin-top: 10px;
+  }
+  blockquote p {
+    display: inline;
+  }
+  footer{
+      height: 380px;
+      background-color: #222222;
+      color: #ffffff;
+  }
+  .footer-section{
+      padding-top: 80px;
+      
+  }
+  .footer-section h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  .aside{
+      padding-right: 40px ;
+      padding-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+  }
+  .links-f ul{
+      
+      list-style-type: none;
+  }
+  .links-f a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .links-f a:hover{
+      text-decoration: underline #f9bf3b;
+      color: #f9bf3b;
+  }
